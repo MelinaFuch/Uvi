@@ -1,0 +1,115 @@
+.contentAll {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+}
+.barra {
+  background-color: #7721bf;
+  width: 50px;
+  height: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 1.8rem;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.contentAll li {
+  list-style: none;
+}
+
+.card {
+  background-color: #9c31f6;
+  width: 80%;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  padding: 2rem 0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.titleCard {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 100;
+  margin: 0;
+}
+
+
+.containerServices {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0px;
+  border-radius: 15px;
+  padding: 20px;
+  width: 80%;
+}
+
+.containerButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+
+.selectedButton {
+  border: none;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 40px;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 10px 10px 0 0px;
+  color: #7721bf;
+  padding: 10px;
+}
+
+.noSelectedButton {
+  background-color: #9c31f6;
+  border: none;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 40px;
+  padding: 0.5rem 1rem;
+  text-align: center;;
+  cursor: pointer;
+  padding: 10px;
+  color: #fff;
+}
+
+@media (max-width: 850px) {
+  .card {
+    width: 100%;
+  }
+  
+  .titleCard {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin: 0;
+  }
+  
+  .containerServices {
+    width: 100%;
+  }
+}
